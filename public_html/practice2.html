@@ -1,0 +1,40 @@
+<html>
+
+<head><center>
+    <h1>EECS 348 Lab 6: Practice 2</h1>
+</center></head>
+<head><center>
+    <h1>
+        This page allows you to manipulate and alter the color of the borders surrounding a line of text.
+    </h1>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <script src="function.js" type="text/javascript" ></script>
+
+</center></head>
+
+<style>
+    #paragraph {
+        border-style: solid;
+        border-width: 10px;
+    }
+</style>
+
+<body>
+
+    <div id="paragraph">
+
+        This area will be altered.
+
+    </div>
+
+    Border Red (0-255): <input type="text" id="border_Red" value=""> <br>
+    Border Green (0-255): <input type="text" id="border_Green" value=""> <br>
+    Border Blue (0-255): <input type="text" id="border_Blue" value=""> <br>
+    Border Width (0-255): <input type="text" id="border_width" value=""> <br>
+    Background Red (0-255): <input type="text" id="bg_Red" value=""> <br>
+    Background Green (0-255): <input type="text" id="bg_Green" value=""> <br>
+    Background Blue (0-255): <input type="text" id="bg_Blue" value=""> <br>
+    <button onclick="alert_paragraph_color()">Change the color!</button> <br>
+</body>
+
+</html>
